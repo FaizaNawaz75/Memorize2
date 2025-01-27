@@ -1,0 +1,45 @@
+# macOS
+*.DS_Store
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/.*
+
+# Swift Package Manager
+.build/
+*.xcodeproj/project.xcworkspace/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+*.lock
+
+# Archives
+*.xcarchive
+
+# Derived Data
+DerivedData/
+
+# Index
+.DS_Store
+.idea/
+*.xcuserstate
+
